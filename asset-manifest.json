@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/React-assingment-3/static/css/main.c15d0e74.css",
+    "main.js": "/React-assingment-3/static/js/main.963e604b.js",
+    "index.html": "/React-assingment-3/index.html",
+    "main.c15d0e74.css.map": "/React-assingment-3/static/css/main.c15d0e74.css.map",
+    "main.963e604b.js.map": "/React-assingment-3/static/js/main.963e604b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c15d0e74.css",
+    "static/js/main.963e604b.js"
+  ]
+}
