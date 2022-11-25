@@ -29,10 +29,11 @@ function App() {
       <br/>
           <input type="text" placeholder='search for Movie Title ...' onChange={(e) => pictureSearch(e.target.value.toLowerCase())} />
           <br/>
-       {movies.map((movie,i)=> <div >
+       {movies? movies.map((movie,i)=> <div >
            <img src={movie.Poster}></img>
            <p>{movie.Title}</p>
-         </div>
+         </div>: <p> Empty <p/>
+            
 )
      }
     </div>
