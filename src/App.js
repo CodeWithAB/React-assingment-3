@@ -32,9 +32,7 @@ function App() {
        {movies? movies.map((movie,i)=> <div >
            <img src={movie.Poster}></img>
            <p>{movie.Title}</p>
-         </div>: <p> Empty <p/>
-            
-)
+         </div>): <p> Empty <p/>
      }
     </div>
   );
